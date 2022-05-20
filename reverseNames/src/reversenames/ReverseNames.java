@@ -12,7 +12,7 @@ public class ReverseNames {
         firstName = computerKeyboardInput.next();
         lastName = computerKeyboardInput.next();
         for (int i = firstName.length() - 1; i >= 0; i--) {
-            reversedFirstname = firstName.charAt(i);
+            reversedFirstname += firstName.charAt(i);
         }
     }
 }
