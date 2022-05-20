@@ -13,9 +13,9 @@ public class ReverseNames {
         lastName = computerKeyboardInput.next().toLowerCase();
         for (int i = firstName.length() - 1; i >= 0; i--) {
             reversedFirstname = reversedFirstname + firstName.charAt(i);
-            //if (reversedFirstname.length() == 1) {
-                //reversedFirstname = reversedFirstname.toUpperCase();
-            //}
+            if (reversedFirstname.length() == 1) {
+                reversedFirstname = reversedFirstname.toUpperCase();
+            }
         }
         reversedFirstname = reversedFirstname.substring(0, 1).toUpperCase() + reversedFirstname.substring(1);
         System.out.print(reversedFirstname + " ");
