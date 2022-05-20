@@ -15,13 +15,13 @@ public class ReverseNames {
             reversedFirstname = reversedFirstname + firstName.charAt(i);
         }
         //capitalize first letter of first name
-        reversedFirstname = reversedFirstname.toUpperCase();
+        reversedFirstname = reversedFirstname.toUpperCase(0);
         System.out.print(reversedFirstname + " ");
         for (int i = lastName.length() - 1; i >= 0; i--) {
             reversedLastName = reversedLastName + lastName.charAt(i);
         }
         //capitalize first letter of last name
-        reversedLastName = reversedLastName.toUpperCase();
+        reversedLastName = reversedLastName.toUpperCase(0);
         System.out.println(reversedLastName);
     }
 }
