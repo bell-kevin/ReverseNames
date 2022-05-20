@@ -1,21 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package reversenames;
 
-/**
- *
- * @author 4800590195
- */
+import java.util.Scanner;
+import java.util.*;
+
 public class ReverseNames {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.print("Reverse Name by Kevin Bell \n");
+        Scanner computerKeyboardInput = new Scanner(System.in);
+        System.out.print("What is your name? ");
+        String name = computerKeyboardInput.next();
+        String firstName, lastName, reverseName;
+        StringBuffer rev = new StringBuffer(name);
+        rev.reverse();
+        System.out.print("Your name in reverse is: " + rev + "\n");
     }
-    
 }
