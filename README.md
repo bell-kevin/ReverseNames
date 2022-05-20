@@ -1,0 +1,2 @@
+# ReverseNames
+Reverse Names. Create a project that asks the user’s name, then reverses them. The first name needs to be reversed and used as the first name, and the last name needs to be reversed and used as the last name. That is, if the user’s name is “Hal Morgan”, the reversed version is “Lah Nagrom”, first name is still first, last name is still last. Notice that the first letter of each name must be capitalized.
